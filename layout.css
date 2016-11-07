@@ -1,0 +1,260 @@
+*{
+	margin: 0px;
+	padding: 0xp;
+}
+
+body{
+	background-color: rgb(215, 224, 239);
+}
+
+
+/* Div's */ 
+
+
+
+div.container{
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+div.header_banner{
+	background-color: rgb(36, 38, 40);
+}
+
+div.header{
+	background-color: black;	
+	padding: 10px;
+	opacity: 1;
+}
+
+div.reclame{
+	border: none;
+	float: right;
+	width: 190px;
+	padding-right: 40px;
+	margin-right: 15px;
+	background-color: white;
+}
+
+div img{
+	width: 190px;
+	height: auto;
+	margin-left: 20px;
+	margin-bottom: 22px;
+	border: 1px solid grey;
+}
+
+header{
+	background-color: #26519e;
+	margin-bottom: 20px;
+	z-index: 1;
+}
+
+div.artikels{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+article{
+	width: 45%;
+	border-bottom: 1px solid grey;
+	margin: 10px;
+	margin-left: 15px;
+	margin-top: 15px;	
+	margin-bottom: 50px;
+}
+
+footer{
+	background-color: rgb(36, 38, 40);
+	padding: 20px;
+}
+
+footer p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/* H 1/2 + p / li elementen [Algerian] #f7fae5;*/
+
+
+
+h1{
+	font-family: Lucida Sans Unicode;
+	font-size: 40px;
+	display: inline-block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 110px;
+	margin-right: 80px;
+}
+
+h2{
+	color: grey;
+	padding: 10px;
+	font-size: 31px;
+	font-family: helvetica;
+	margin: 5px;
+	padding-bottom: 20px;
+}
+
+h3{
+	color: grey;
+	font-size: 28px;
+	font-family: helvetica;
+	margin: 40px;
+	text-align: center;
+}
+
+ul{
+	display: inline;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+li{
+	display: inline;
+	font-size: 30px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 6px;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-right: -1px;
+}
+
+
+p{
+	color: black;
+	padding: 17px;
+	padding-top: 8px;
+	font-family: "Open Sans", Arial, Verdana;
+	font-size: 21px;
+	margin: 5px;
+}
+
+p.reclame{
+	text-align: center;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+a.footer{
+	color: orange;
+}
+
+/* a + hover + img*/
+
+
+a{
+	text-decoration: none;
+	color: darkblue;
+}
+
+a:hover{
+	color: grey;
+}
+
+img.header_banner{
+	margin-left: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	left: 50%;
+	width: 700px;
+	height: 180px;
+	border: 0.3px solid black;
+}
+
+span{
+	color: red;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+img{
+	width: 400px;
+	margin: 10px;
+	border: 0.5px solid grey;
+}
+
+img.artikel{
+	border: white;
+	width: 495px;
+	height: auto;
+	margin-left: 0px;
+	border: 0.5px solid grey;
+}
+
+img.artikel4{
+	width: 465px;
+	height: auto;
+}
+
+
+/* css van artikels */
+
+article.artikel{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.artikel_nieuws{
+	width: 750px;
+	height: auto;
+	margin-left: 0px;
+	margin-top: 50px;
+	padding-left: 0px;
+}
+
+h2.nieuws{
+	color: grey;
+	padding: 10px;
+	font-size: 31px;
+	font-family: helvetica;
+	margin: 5px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+p.artikels{
+	text-align: center;
+}
+
+p.artikels a{
+	font-size: 25px;
+	color: orange;
+}
+
+p.artikels a:hover{
+	color: grey;
+}
+
+
+/* Css van Hobby */
+
+ul.hobby{
+	margin-left: 0px;
+}
+
+ul.hobby li{
+	font-family: "Open Sans", verdana;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	display: block;
+}
+
+div.hobby{
+	text-align: center;
+}

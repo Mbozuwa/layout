@@ -1,0 +1,111 @@
+*{
+	margin: 0px;
+	padding: 0xp;
+}
+
+body{
+	background-color: grey;
+	background-image: url("bg2.jpg");
+}
+
+
+/* Div's */ 
+
+
+div.alles{
+	background-image: url("blok.png");
+	width: 80%;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px double;
+}
+
+div.header{
+	background-image: url("illidan.png");
+	background-position: 50% -40px;
+	padding-top: 20px;
+	padding: 10px;
+	opacity: 1;
+}
+
+div.lijst{
+	background-color: black;
+	width: 80%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	position: fixed;
+	z-index: 1;
+	opacity: 0.6;	
+}
+
+div.artikel{
+	background-color: lightblue;
+	border: 5px double;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+
+/* H 1/2 + p / li elementen [Algerian] #f7fae5;*/
+
+
+
+h1{
+	opacity: 0.6;
+	background-color: black;
+	color: red;
+	font-family: Cooper;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	margin-top: 36px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+h2{
+	background-color: red;
+	padding: 10px;
+	font-size: 35px;
+	font-family: helvetica;
+}
+
+ul{
+	text-decoration: none;
+	margin-left: 30%;
+}
+
+li{
+	display: inline;
+	margin-left: 30px;
+	background-color: white;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 50px;
+	border: 2px solid black;
+}
+
+p{
+	background-color: red;
+	color: pink;
+	padding: 17px;
+	padding-top: 8px;
+	font-family: Helvetica;
+}
+
+
+/* a + hover */
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: grey;
+}
